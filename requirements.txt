@@ -1,0 +1,8 @@
+setuptools
+dimits
+PyAudio
+openai
+SpeechRecognition
+rich
+pydub
+vosk
