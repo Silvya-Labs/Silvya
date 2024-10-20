@@ -14,6 +14,7 @@ import requests
 from rich import print as dprint
 from rich.console import Console
 from rich.prompt import Prompt, Confirm
+from ascii_magic import AsciiArt
 
 __VERSION__ = "00.1"
 LAST_VERSION_URL = "https://pastebin.com/raw/VVp9rRhb"
@@ -24,7 +25,7 @@ if not last_version == __VERSION__:
         if Confirm.ask('[bold yellow][?][/bold yellow] 🤔 It looks like your installer doesn\
 \'t match the latest available version of Silvya. This could cause problems \
 in the future. Would you like to update the program?'):
-            os.system('git pull origin release')
+            os.system('git pull origin main')
             exit()
 
 def strip_extension(fn: str, extensions):
