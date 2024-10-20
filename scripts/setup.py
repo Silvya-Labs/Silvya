@@ -16,6 +16,10 @@ from rich.console import Console
 from rich.prompt import Prompt, Confirm
 from ascii_magic import AsciiArt
 
+silvya_logo = AsciiArt.from_image('./medias/SILVYA-2_1.png')
+silvya_logo.to_terminal()
+
+
 __VERSION__ = "00.1"
 LAST_VERSION_URL = "https://pastebin.com/raw/VVp9rRhb"
 
