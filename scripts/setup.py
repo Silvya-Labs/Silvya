@@ -16,7 +16,7 @@ from rich.console import Console
 from rich.prompt import Prompt, Confirm
 from ascii_magic import AsciiArt
 
-silvya_logo = AsciiArt.from_image('./medias/SILVYA.png')
+silvya_logo = AsciiArt.from_image('./medias/SILVYA-2_1.png')
 silvya_logo.to_terminal()
 
 
