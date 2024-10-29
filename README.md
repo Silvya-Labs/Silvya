@@ -11,6 +11,7 @@ Lidya is a voice assistant equipped with plugins allowing your favorite LLMs to 
 
 ## Important informations
 Lidya was created, tested and used on Linux, so we will not provide any support for Windows users at this time.
+
 ⚠️ | Lidya is now called Silvya, but the transition between this two names is hard and may take some time. Sorry. 
 
 
